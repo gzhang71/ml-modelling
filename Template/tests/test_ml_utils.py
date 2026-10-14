@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from ml_utils import eda, evaluation, improvement, modeling, preprocessing as prep
+from Template.ml_utils import eda, evaluation, improvement, modeling, preprocessing as prep
 
 
 def make_df(task: str, n: int = 400, seed: int = 0) -> pd.DataFrame:

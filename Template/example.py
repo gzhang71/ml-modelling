@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from ml_utils import eda, evaluation, improvement, modeling, preprocessing as prep
+from Template.ml_utils import eda, evaluation, improvement, modeling, preprocessing as prep
 
 TARGET = "churned"
 
